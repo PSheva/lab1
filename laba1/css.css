@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #6c7279;
+    background-color: #fff;
+    height: auto;
+
+}
+
+
+li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+
+
+
+.container {
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.general_block {
+    /* width: 500px;
+    height: 500px; */
+    background-color: rgb(218, 149, 45);
+}
+
+.menu {
+    height: 130px;
+    background-color: #3a3e64;
+    
+}
+
+.menu__inner {
+    display: flex;
+
+}
+
+.menu__logo {
+    margin-left: 75px;
+}
+
+.nav__container {
+
+    display: flex;
+    margin-left: 1100px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    height: max-content;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+
+
+.nav__link {
+    display: flex;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    opacity: 0.75;
+    color: azure;
+    transition: 0.2 opacity linear;
+    margin-right: 50px;
+
+}
+
+.nav__link:last-child {
+    margin-right: 0px;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+
+
+
+
+.main {
+
+    background-color: rgb(27, 140, 168);
+    display: flex;
+}
+
+.side__container {
+    height: 600px;
+    /* width: 350px; */
+    background-color: #3444;
+    text-align: center;
+    font-size: 30px;
+    color: cornsilk;
+
+}
+
+.left_block {
+
+    background-color: rgba(243, 160, 7, 0.822);
+}
+
+
+
+
+
+.clue {
+    width: 20%;
+}
+
+#clue {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.central__clue {
+    width: 60%;
+    
+    
+
+}
+
+.central__block{
+    background-color: gray;
+}
+.central_upper_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color:#3a3e64;
+    border: 1px #fff solid;
+    
+
+}
+
+.central_bottom_block{
+    height: 540px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+}
+
+.right_bottom_block{
+    height: 60px;
+    background-color: cornflowerblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+    
+}
+
+.right_upper_block{
+    height: 540px;
+}
+.right_block {
+    margin-left: auto;
+    margin-right: 0;
+    background-color: rgba(243, 160, 7, 0.822);
+}
+
+.footer {
+    height: 100px;
+    background-color: #3a3e64;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    justify-content: center;
+    text-align: center;
+    color: #6c7279;
+    font-size: 20px;
+}
